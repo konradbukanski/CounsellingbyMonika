@@ -1,0 +1,403 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre Caslon Text', serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+.container-fluid .header {
+  position: relative;
+  text-align: center;
+}
+
+.container-fluid .header .logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #867664;
+}
+
+.container-fluid .header .logo span {
+  color: brown;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container-fluid .header h1 {
+  padding: 12vh 0;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #867664;
+}
+
+.container-fluid .header h1 span {
+  font-size: 15px;
+  padding: 0 10px;
+  color: brown;
+  font-weight: bold;
+}
+
+.container-fluid .header .header__language {
+  color: brown;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 130px;
+  font-weight: bold;
+}
+
+.container-fluid .header .header__language span {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.container-fluid .header .header__language .header__language--PL {
+  font-weight: bold;
+}
+
+.container-fluid .baner {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color: #faf4ea;
+  margin: 0;
+}
+
+.container-fluid .baner .baner__text {
+  color: #5d4141;
+  position: absolute;
+  width: 60%;
+  letter-spacing: 1px;
+}
+
+.container-fluid .baner .text1, .container-fluid .baner .text2, .container-fluid .baner .text3 {
+  font-size: 35px;
+  font-weight: 500;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+.container-fluid .baner .text1 {
+  top: 35%;
+  left: 30%;
+}
+
+.container-fluid .baner .text2 {
+  top: 35%;
+  left: 42%;
+}
+
+.container-fluid .baner .text3 {
+  top: 50%;
+  left: 40%;
+}
+
+.container-fluid .baner .baner--btn {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: none;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.container-fluid .baner .baner--btn button {
+  padding: 10px;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.container-fluid .baner .baner--btn button:hover {
+  background-color: #442706;
+  color: #fff;
+}
+
+.container-fluid .section {
+  width: 90%;
+  height: 50vh;
+  margin: 100px auto;
+  position: relative;
+}
+
+.container-fluid .section .text2 {
+  left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #ccc;
+  width: 50%;
+  padding: 5% 20%;
+}
+
+.container-fluid .section .text3 {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  font-size: 24px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  color: #7c7171;
+  padding: 2% 4%;
+  font-weight: 300;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 55%;
+  text-align: center;
+}
+
+.container-fluid .section .text4 {
+  position: absolute;
+  background-color: #faf4ea;
+  color: #837d6a;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 25%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  left: 10%;
+}
+
+.container-fluid .section .text4 span {
+  padding: 5px 0;
+  font-size: 30px;
+}
+
+.container-fluid .about {
+  margin: 150px auto;
+  width: 100%;
+  position: relative;
+  background-color: #faf4ea;
+}
+
+.container-fluid .about .about__image {
+  width: 40%;
+  padding: 0;
+  height: 500px;
+  position: relative;
+}
+
+.container-fluid .about .about__image img {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container-fluid .about .about__text {
+  position: absolute;
+  width: 38%;
+  left: 45%;
+  top: 40%;
+  font-size: 20px;
+  background-color: #fff;
+  color: #837d6a;
+  padding: 2%;
+}
+
+.container-fluid .ofert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.container-fluid .ofert span {
+  padding: 2%;
+  font-size: 24px;
+}
+
+.container-fluid .ofert .ofert--small {
+  font-size: 16px;
+  padding: 30px 0 0 0;
+}
+
+.container-fluid .ofert .ofert--medium {
+  font-size: 18px;
+}
+
+.container-fluid .ofert .ofert__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-fluid .ofert .ofert__box {
+  width: 45%;
+  background-color: #faf4ea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-fluid .ofert .ofert__box span {
+  height: 50%;
+  padding: 10%;
+}
+
+.container-fluid .ofert .ofert__cancelInstruction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-fluid .ofert .ofert__cancelInstruction h3 {
+  font-size: 20px;
+}
+
+.container-fluid .ofert .ofert__cancelInstruction span {
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 30%;
+}
+
+.container-fluid .contact {
+  background-color: #faf4ea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.container-fluid .contact h4 {
+  font-size: 22px;
+  margin: 80px 0;
+}
+
+.container-fluid .contact .contact--options {
+  width: 40%;
+  margin: 80px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-fluid .contact .contact--options .contact--option {
+  text-align: center;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-fluid .contact .contact--options .contact--option svg {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 50px;
+  color: #685151;
+  margin-bottom: 20px;
+}
+
+.container-fluid .contact .contact--options .contact--option span {
+  font-size: 20px;
+}
+
+.container-fluid .contact__form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.container-fluid .contact__form h2 {
+  text-align: center;
+}
+
+.container-fluid .contact__form div {
+  width: 100%;
+}
+
+.container-fluid .contact__form div input, .container-fluid .contact__form div textarea {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 1px;
+  border: 1px solid #ccc;
+}
+
+.container-fluid .contact__form div input {
+  height: 50px;
+  padding: 0 10px;
+}
+
+.container-fluid .contact__form div textarea {
+  height: 150px;
+  padding: 10px;
+}
+
+.container-fluid .contact__form div button {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.container-fluid footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #faf4ea;
+}
+/*# sourceMappingURL=style.css.map */
